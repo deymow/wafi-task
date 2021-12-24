@@ -1,0 +1,34 @@
+.tmp/
+
+.idea/
+.vscode/settings.json
+*.code-workspace
+.DS_Store
+.coverage
+
+*.out
+*.test
+*.xml
+*.swp
+/*.iml
+*.cov
+*.html
+/test.log
+
+# Executables produced by temporal repo
+/temporal-*
+/tctl*
+
+# Buf proto image
+/proto/image.bin
+
+# Goreleaser
+/dist
+/bin
+
+# Fossa
+.fossa.yml
+
+# Build info
+build/info/data.json
+
